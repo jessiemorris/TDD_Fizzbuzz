@@ -5,7 +5,7 @@
 #include "fizzbuzz_test.h"
 
 START_TEST(should_return_three) {
-  ck_assert_str_eq(fizzbuzz, "3");
+  ck_assert_str_eq(fizzbuzz(3), "3");
 }
 END_TEST
 
