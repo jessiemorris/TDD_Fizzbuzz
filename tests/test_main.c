@@ -5,13 +5,13 @@
 
 int main() {
   int number_failed;
-  Suite *fizzbuzz_suite;
+  Suite *fizzbuzz;
   SRunner *sr;
 
   fizzbuzz = fizzbuzz_suite();
 
   sr = srunner_create(fizzbuzz);
-  srunner_add_suite(sr, fizzbuzz_suite); 
+  srunner_add_suite(sr, fizzbuzz); 
 
   srunner_run_all(sr, CK_NORMAL);
   srunner_free(sr);
