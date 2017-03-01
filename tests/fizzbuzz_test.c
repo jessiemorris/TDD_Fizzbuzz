@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <check.h>
 #include <stdio.h>
-#include "../fizzbuzz.h"
+#include "../src/fizzbuzz.h"
 #include "fizzbuzz_test.h"
 
 START_TEST(should_return_three) {
