@@ -6,7 +6,6 @@
 
 START_TEST(should_return_three) {
   ck_assert_str_eq(fizzbuzz, "3");
-  free(postfix);
 }
 END_TEST
 
