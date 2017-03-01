@@ -1,5 +1,5 @@
-src=$(patsubst %.c,%.o,$(wildcard *.c))
-tests=$(patsubst %.c,%.o,$(wildcard *.c))
+src=$(patsubst %.c,%.o,$(wildcard src/*.c))
+tests=$(patsubst %.c,%.o,$(wildcard tests/*.c))
 CC=gcc
 CFLAGS=-std=c99
 FLAGS=`pkg-config --cflags --libs check`
